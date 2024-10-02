@@ -1,0 +1,3 @@
+Directory                     File name                     Filename extension            Date and time of creation     Attribute                     Deletion flag                 Number of allocated sectors   
+dir                           name                          hm                            01.02.12   03:02              Hidden                        true                          12                            
+awde                          ad                            ads                           23.12.4232 12:03              System                        ertf                          0                             

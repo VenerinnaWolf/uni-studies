@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <syntaxes>
+        <syntax id = "C++"
+                name = "Язык программирования C++"
+                ext_list = "cpp h hpp">
+            <keywords words_list = "char class const double enum explicit friend inline int long namespace operator private protected public short signals signed slots static struct template typedef typename union unsigned virtual void volatile bool"
+                      foreground="#000080" font_weight="75"/>
+            <multicomment>
+                <startpattern value="/\*"/>
+                <endpattern value="\*/"/>
+                <format foreground="#ff0000" font_weight="50"/>
+            </multicomment>
+            <rule>
+                <pattern value="{"/>
+                <format foreground="#008000" font_weight="75"/>
+            </rule>
+            <rule>
+                <pattern value="}"/>
+                <format foreground="#008000" font_weight="75"/>
+            </rule>
+            <rule>
+                <pattern value="\bQ[A-Za-z]+\b"/>
+                <format foreground="#800080" font_weight="75"/>
+            </rule>
+            <rule>
+                <pattern value="\b[A-Za-z0-9_]+(?=\()"/>
+                <format foreground="#0000ff" font_weight="50"/>
+            </rule>
+            <rule>
+                <pattern value="//[^\n]*"/>
+                <format foreground="#ff0000" font_weight="50"/>
+            </rule>
+            <rule>
+                <pattern value = '".*"'/>
+                <format foreground="#008000" font_weight="50"/>
+            </rule>
+        </syntax>
+        <syntax id = "Pyton"
+                name = "Язык программирования Pyton"
+                ext_list = "py">
+            <keywords words_list = "pyton class for"
+                      foreground="#008080" font_weight="75"/>
+            <rule>
+                <pattern value = "\b[A-Za-z0-9_]+(?=\()"/>
+                <format foreground="#008000" font_weight="50"/>
+            </rule>
+        </syntax>
+        <syntax id = "HTML"
+                name = "Язык разметки HTML"
+                ext_list = "html htm xhtml xhtm mhtml">
+                <keywords words_list = "html head body class"
+                          foreground="#800080" font_weight="75"/>
+        </syntax>
+        <syntax id = "Java Sctipt"
+                name = "Язык программирования Java Script"
+                ext_list = "js">
+                <keywords words_list = "java script object for"
+                          foreground="#808000" font_weight="75"/>
+        </syntax>
+    </syntaxes>
+</settings>

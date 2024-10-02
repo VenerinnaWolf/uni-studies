@@ -1,0 +1,2 @@
+Directory                     File name                     Filename extension            Date and time of creation     Attribute                     Deletion flag                 Number of allocated sectors   
+3                             23                            234                           04.23.4    23:34              Hidden                        true                          3                             
